@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './swiper.module.css';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+import Navbar from '../navbar/navbar';
 
 const Swiper = ({slides}) => {
     const [current, setCurrent] = useState(0);

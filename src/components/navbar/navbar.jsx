@@ -10,6 +10,13 @@ const Navbar = (props) => {
             <a href="#">BookShare</a>
         </div>
         <div className={styles.navbar__menu}>
+        <ul className={styles.navbar__menu__center}>
+                <li className={styles.navbar__menu__item} data-link="#best">테스트1</li>
+                <li className={styles.navbar__menu__item} data-link="#steady">테스트2</li>
+                <li className={styles.navbar__menu__item} data-link="#steady">테스트3</li>
+                <li className={styles.navbar__menu__item} data-link="#steady">테스트4</li>
+            </ul>
+
             <ul className={styles.navbar__menu}>
                 <li className={styles.navbar__menu__item} data-link="#best">로그인</li>
                 <li className={styles.navbar__menu__item} data-link="#steady">마이페이지</li>
