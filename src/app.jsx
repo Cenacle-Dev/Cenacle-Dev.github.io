@@ -1,4 +1,5 @@
 import './app.css';
+import Maker from './components/maker/maker';
 import Navbar from './components/navbar/navbar';
 import Swiper from './components/swiper/swiper';
 import { SwiperData } from './service/swiperData';
@@ -9,7 +10,7 @@ function App() {
     <>
     <Navbar />
     <Swiper slides={SwiperData} />
-    {/* <Header /> */}
+    <Maker />
     </>
   );
 }

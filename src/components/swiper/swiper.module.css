@@ -8,7 +8,7 @@
 
 .image {
     width: 80%;
-    margin: 5% 10%;
+    margin: 10% 10%;
     height: 50vh;
     border-radius: 10px;
     transform: scale(1.08);
@@ -16,7 +16,7 @@
 
 .prevBanner {
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 32px;
     font-size: 3rem;
     color: black;
@@ -31,7 +31,7 @@
 
 .nextBanner {
     position: absolute;
-    top: 25%;
+    top: 35%;
     right: 32px;
     font-size: 3rem;
     color: black;
