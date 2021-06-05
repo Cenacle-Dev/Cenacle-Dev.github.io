@@ -3,12 +3,23 @@
     margin: 4rem;
 }
 
+.header {
+    display: flex;
+}
+
+.see_entire {
+    color: gray;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
 .title {
-    width: 100%;
+    width: 90%;
     text-align: left;
     margin-bottom: 1em;
     color: black;
-    padding-left: 3em;
+    padding-left: 1em;
     padding-top: 10px;
 }
 
