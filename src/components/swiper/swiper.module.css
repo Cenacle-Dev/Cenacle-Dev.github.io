@@ -7,31 +7,41 @@
 }
 
 .image {
-    width: 100%;
-    height: 550px;
+    width: 80%;
+    margin: 5% 10%;
+    height: 50vh;
     border-radius: 10px;
+    transform: scale(1.08);
+}
+
+.prevBanner {
+    position: absolute;
+    top: 25%;
+    left: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    transform: translateY(50%);
 }
 
 .right_arrow {
+}
+
+.nextBanner {
     position: absolute;
-    top: 50%;
+    top: 25%;
     right: 32px;
     font-size: 3rem;
-    color: white;
+    color: black;
     z-index: 10;
     cursor: pointer;
     user-select: none;
+    transform: translateY(50%);
 }
 
 .left_arrow {
-    position: absolute;
-    top: 50%;
-    left: 32px;
-    font-size: 3rem;
-    color: white;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
 }
 
 .swipe {
@@ -42,5 +52,4 @@
 .swipe_active {
     opacity: 1;
     transition-duration: 1s;
-    transform: scale(1.08);
 }

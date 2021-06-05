@@ -6,23 +6,26 @@ import Navbar from '../navbar/navbar';
 const Swiper = ({slides}) => {
     const [current, setCurrent] = useState(0);
     const length = slides.length;
-    const prevSlide = () => {
+    const prevSlide = (idx) => {
         setCurrent(current === 0? length - 1 : current - 1);
     };
-    const nextSlide = () => {
+    const nextSlide = (idx) => {
         setCurrent(current === length - 1 ? 0 : current + 1);
     };
-
-    console.log(current);
 
     if(!Array.isArray(slides) || slides.length <= 0) {
         return null;
     }
 
+
         return (
             <section className={styles.swiper}>
-                <IoIosArrowBack className={styles.left_arrow} onClick={prevSlide} />
-                <IoIosArrowForward className={styles.right_arrow} onClick={nextSlide} />
+                <div className={styles.prevBanner} onClick={prevSlide}>
+            <IoIosArrowBack className={styles.left_arrow} />
+            </div>
+            <div className={styles.nextBanner} onClick={nextSlide}>
+                <IoIosArrowForward className={styles.right_arrow} />
+                </div>
             {slides.map((slide, index) => {
                 return (
                 <div 
@@ -35,6 +38,7 @@ const Swiper = ({slides}) => {
                 </div>
                 );
             })}
+            
             </section>
             
         );
