@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app';
 import reportWebVitals from './reportWebVitals';
+// import AuthService from './service/auth_service';
+
+// const authService = new AuthService();
 
 ReactDOM.render(
   <React.StrictMode>

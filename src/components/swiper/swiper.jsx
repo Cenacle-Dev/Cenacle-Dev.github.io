@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from './swiper.module.css';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-import Navbar from '../navbar/navbar';
 
 const Swiper = ({slides}) => {
     const [current, setCurrent] = useState(0);
@@ -15,8 +14,7 @@ const Swiper = ({slides}) => {
 
     if(!Array.isArray(slides) || slides.length <= 0) {
         return null;
-    }
-
+    };
 
         return (
             <section className={styles.swiper}>
@@ -33,7 +31,7 @@ const Swiper = ({slides}) => {
                 key = {index}
                 >
                     {index === current && (
-                <img className={styles.image} src={slide.image} alt="book image" />
+                <img className={styles.image} src={slide.image} alt="book_image" />
                     )}
                 </div>
                 );

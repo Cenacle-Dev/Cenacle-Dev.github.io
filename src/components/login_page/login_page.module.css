@@ -1,0 +1,68 @@
+.login {
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+    padding: 10em;
+}
+
+.title {
+    text-align: center;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.field {
+    margin-bottom: 0.7em;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 0.7em;
+}
+
+.item {
+    margin-bottom: 0.5em;
+}
+
+.logo {
+    width: 1em;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    padding: 12px;
+}
+
+.logo_kakao {
+    background-color: #ffcd00;
+    width: 1em;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.logo_naver {
+    background-color: #00c301;
+    width: 1em;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.button {
+    width: 3em;
+    height: 2.5em;
+    font-size: 1.2rem;
+    background-color: transparent;
+    cursor: pointer;
+    outline: 0;
+}
