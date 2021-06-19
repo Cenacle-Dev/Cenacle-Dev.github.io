@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Group from '../groups/group/group';
-import styles from './preview.module.css';
+import styles from './preview_new.module.css';
 
-const Preview = ({groups}) => {
+const PreviewNew = ({groups}) => {
     const [current, setCurrent] = useState(0);
     const length = groups.length;
     const prevSlide = (idx) => {
@@ -14,7 +14,7 @@ const Preview = ({groups}) => {
 return (
 <section className={styles.preview}>
     <div className={styles.header}>
-    <h1 className={styles.title}>마감 직전인 모임</h1>
+    <h1 className={styles.title}>새로 생긴 모임</h1>
     <p className={styles.see_entire}>전체 보기</p>
     </div>
     <ul>
@@ -27,4 +27,4 @@ return (
 };
 
 
-export default Preview;
+export default PreviewNew;

@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './app.css';
+import CreateGroup from './components/groups/create_group/create_group';
 import LoginPage from './components/login_page/login_page';
 import Maker from './components/maker/maker';
 import Navbar from './components/navbar/navbar';

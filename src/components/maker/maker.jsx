@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Footer from '../footer/footer';
 import Preview from '../preview/preview';
+import PreviewNew from '../preview/preview_new';
 import styles from './maker.module.css';
 
 
@@ -41,6 +42,7 @@ const Maker = () => {
         <section className={styles.maker}>
             <div className={styles.container}>
                 <Preview groups={groups}/>
+                <PreviewNew groups={groups} />
             </div>
         <Footer />
         </section>

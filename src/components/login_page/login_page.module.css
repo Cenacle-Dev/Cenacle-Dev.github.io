@@ -21,11 +21,13 @@
     text-align: center;
     justify-content: center;
     margin: auto;
+    transform: translateX(-0.7em);
 }
 
 .field {
     margin-bottom: 0.7em;
     width: 100%;
+    transform: translateX(-0.7em);
 }
 
 .input {
