@@ -12,7 +12,8 @@ const Navbar = (props) => {
         <div className={styles.navbar__menu}>
             <ul className={styles.navbar__menu}>
                 <li className={styles.navbar__menu__item}><a href="/login">로그인</a></li>
-                <li className={styles.navbar__menu__item} data-link="#steady">마이페이지</li>
+                <li className={styles.navbar__menu__item}><a href="/mypage">마이페이지</a></li>
+                <li className={styles.navbar__menu__item}><a href="/new">그룹 만들기</a></li>
             </ul>
         </div>
         <button className={styles.navbar__toggle_btn}>Login</button>

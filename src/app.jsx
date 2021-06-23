@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './app.css';
-import CreateGroup from './components/groups/create_group/create_group';
+import GroupAddForm from './components/groups/group_add_from.jsx/group_add_from';
 import LoginPage from './components/login_page/login_page';
 import Maker from './components/maker/maker';
 import Navbar from './components/navbar/navbar';
@@ -20,6 +20,9 @@ function App(authService) {
     </Route>
     <Route path="/login">
     <LoginPage authService={authService} />
+    </Route>
+    <Route path="/new">
+      <GroupAddForm />
     </Route>
     </Switch>
     </BrowserRouter>
