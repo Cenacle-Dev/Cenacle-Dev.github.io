@@ -25,14 +25,14 @@ const LoginPage = ({ authService }) => {
 
     return (
         <section className={styles.login}>
-                <h1 className={styles.title} >로그인</h1>
+            <h1 className={styles.title} >로그인</h1>
                 <div className={styles.login_form}>
-                <div className={styles.field}>
-                    <input className={styles.input} type="email" id="userName" name="userName" placeholder="이메일 아이디"/>
-                </div>
-                <div className={styles.field}>
-                    <input className={styles.input} type="password" id="password" name="password" maxLength="17" placeholder="비밀번호(영문, 숫자, 특수 문자 포함 8자 이상)"/>
-                </div>
+                    <div className={styles.field}>
+                        <input className={styles.input} type="email" id="userName" name="userName" placeholder="이메일 아이디"/>
+                    </div>
+                    <div className={styles.field}>
+                        <input className={styles.input} type="password" id="password" name="password" maxLength="17" placeholder="비밀번호(영문, 숫자, 특수 문자 포함 8자 이상)"/>
+                    </div>
                 <div className={styles.login_help}>
                     <label className={styles.save_id_label}>
                         <input className={styles.save_id_checkbox} type="checkbox" title="아이디 저장" />

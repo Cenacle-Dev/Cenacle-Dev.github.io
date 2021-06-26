@@ -1,9 +1,13 @@
 .form {
-    display: flow-root;
-    position: absolute;
+    display: block;
+    position: relative;
     top: 5em;
-    margin: 0 25% 0 25%;
-    justify-content: center;
+    margin: auto;
+    width: 30em;
+}
+
+.container {
+    width: 100%;
 }
 
 .input,
@@ -21,9 +25,11 @@
 }
 
 .input,
-.select {
-    width: 100%;
+.select,
+.textarea {
+    width: -webkit-fill-available;
     flex: 1 1 30%;
+    border-radius: 0.5em;
 }
 
 .fileInput {
