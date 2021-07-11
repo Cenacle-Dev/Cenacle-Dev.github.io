@@ -1,37 +1,24 @@
-import React, { memo } from 'react';
+import React, { memo, useRef, useState } from 'react';
 import styles from './group_image.module.css';
 
-const DEFAULT_IMAGE = "/images/book.jpeg";
-const GroupImage = memo(({ GroupImage }) => {
-    const {
-        name,
-        message,
-        theme,
-        fileURL,
-    } = GroupImage;
-    const url = fileURL || DEFAULT_IMAGE;
+// const DEFAULT_IMAGE = "/images/book.jpeg";
+const GroupImage = memo(({ fileURL }) => {
+
+    const groupImage = {
+        title: 'BookShare',
+        tag: '#독서 #모임 #그룹',
+    }
+    const url = fileURL;
+
     return (
-        <li className={`${styles.group_image} ${getStyles(theme)}`}>
+        <li className={styles.group_image} >
             <img className={styles.avatar} src={url} alt="profile" />
             <div className={styles.info}>
-                <h1 className={styles.name}>{name}</h1>
-                <p className={styles.message}>{message}</p>
+                <h1 className={styles.title}>{groupImage.title}</h1>
+                <p className={styles.tag}>{groupImage.tag}</p>
             </div>
-        </li>
+        </li >
     );
 });
-
-function getStyles(theme) {
-    switch (theme) {
-        case 'dark':
-            return styles.dark;
-        case 'light':
-            return styles.light;
-        case 'colorful':
-            return styles.colorful;
-        default:
-            throw new Error(`unknown theme: ${theme}`);
-    }
-}
 
 export default GroupImage;
