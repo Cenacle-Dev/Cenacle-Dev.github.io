@@ -3,6 +3,7 @@ import styles from './image_file_input.module.css';
 
 const ImageFileInput = memo(({ imageUploader, name, onFileChange }) => {
     const [loading, setLoading] = useState(false);
+    const [imageURL, setImageURL] = useState('');
     const inputRef = useRef();
 
     const onButtonClick = (event) => {
@@ -18,6 +19,7 @@ const ImageFileInput = memo(({ imageUploader, name, onFileChange }) => {
             name: uploaded.original_filename,
             url: uploaded.url,
         });
+        setImageURL(uploaded.url);
     };
 
     return <div className={styles.container}>
@@ -29,12 +31,13 @@ const ImageFileInput = memo(({ imageUploader, name, onFileChange }) => {
             name="file"
             onChange={onChange}
         />
-        {!loading && (
+        {!loading && (imageURL.length == 0) && (
             <button className={`${styles.button} ${name ? styles.pink : styles.grey}`} onClick={onButtonClick}>
                 {name || '이미지를 등록해주세요'}
             </button>
         )}
         {loading && <div className={styles.loading}></div>}
+        {(imageURL.length > 0) && <img src={imageURL}></img>}
     </div>
 });
 export default ImageFileInput;
