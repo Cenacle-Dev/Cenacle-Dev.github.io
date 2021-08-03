@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Cenacle-Dev.github.io/react-pages/static/css/main.0df47464.chunk.css",
-    "main.js": "/Cenacle-Dev.github.io/react-pages/static/js/main.d06866a3.chunk.js",
-    "main.js.map": "/Cenacle-Dev.github.io/react-pages/static/js/main.d06866a3.chunk.js.map",
-    "runtime-main.js": "/Cenacle-Dev.github.io/react-pages/static/js/runtime-main.66e06c3e.js",
-    "runtime-main.js.map": "/Cenacle-Dev.github.io/react-pages/static/js/runtime-main.66e06c3e.js.map",
-    "static/css/2.3bde2aa5.chunk.css": "/Cenacle-Dev.github.io/react-pages/static/css/2.3bde2aa5.chunk.css",
-    "static/js/2.fde24294.chunk.js": "/Cenacle-Dev.github.io/react-pages/static/js/2.fde24294.chunk.js",
-    "static/js/2.fde24294.chunk.js.map": "/Cenacle-Dev.github.io/react-pages/static/js/2.fde24294.chunk.js.map",
-    "index.html": "/Cenacle-Dev.github.io/react-pages/index.html",
-    "static/css/2.3bde2aa5.chunk.css.map": "/Cenacle-Dev.github.io/react-pages/static/css/2.3bde2aa5.chunk.css.map",
-    "static/css/main.0df47464.chunk.css.map": "/Cenacle-Dev.github.io/react-pages/static/css/main.0df47464.chunk.css.map",
-    "static/js/2.fde24294.chunk.js.LICENSE.txt": "/Cenacle-Dev.github.io/react-pages/static/js/2.fde24294.chunk.js.LICENSE.txt"
+    "main.css": "/react-pages/static/css/main.0df47464.chunk.css",
+    "main.js": "/react-pages/static/js/main.d06866a3.chunk.js",
+    "main.js.map": "/react-pages/static/js/main.d06866a3.chunk.js.map",
+    "runtime-main.js": "/react-pages/static/js/runtime-main.0cad6c9c.js",
+    "runtime-main.js.map": "/react-pages/static/js/runtime-main.0cad6c9c.js.map",
+    "static/css/2.3bde2aa5.chunk.css": "/react-pages/static/css/2.3bde2aa5.chunk.css",
+    "static/js/2.fde24294.chunk.js": "/react-pages/static/js/2.fde24294.chunk.js",
+    "static/js/2.fde24294.chunk.js.map": "/react-pages/static/js/2.fde24294.chunk.js.map",
+    "index.html": "/react-pages/index.html",
+    "static/css/2.3bde2aa5.chunk.css.map": "/react-pages/static/css/2.3bde2aa5.chunk.css.map",
+    "static/css/main.0df47464.chunk.css.map": "/react-pages/static/css/main.0df47464.chunk.css.map",
+    "static/js/2.fde24294.chunk.js.LICENSE.txt": "/react-pages/static/js/2.fde24294.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.66e06c3e.js",
+    "static/js/runtime-main.0cad6c9c.js",
     "static/css/2.3bde2aa5.chunk.css",
     "static/js/2.fde24294.chunk.js",
     "static/css/main.0df47464.chunk.css",
