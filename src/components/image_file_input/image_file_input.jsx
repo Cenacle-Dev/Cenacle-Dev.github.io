@@ -37,7 +37,7 @@ const ImageFileInput = memo(({ imageUploader, name, onFileChange }) => {
             </button>
         )}
         {loading && <div className={styles.loading}></div>}
-        {(imageURL.length > 0) && <img src={imageURL}></img>}
+        {(imageURL.length > 0) && <img src={imageURL} onClick={onButtonClick}></img>}
     </div>
 });
 export default ImageFileInput;
