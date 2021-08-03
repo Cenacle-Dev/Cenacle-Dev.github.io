@@ -12,7 +12,7 @@ function App({ FileInput }) {
   return (
     <>
       <Navbar />
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/">
             <Swiper slides={SwiperData} />
